@@ -5,7 +5,7 @@ from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-report_time = 30  # send report every 60 sec
+report_time = 30  # send report every 30 sec
 Email_address = 'YOUR-EMAIL'
 Password = 'TOUR-PASSWORD'
 
